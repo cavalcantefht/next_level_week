@@ -23,11 +23,18 @@
 @media only screen and (min-width: 1140px) {
   #page-home {
     height: 100vh;
-    background: url('../../assets/home-background.svg') no-repeat 550px 70px;
+    background: url('../../assets/home-background.svg') no-repeat 550px bottom;
   }
 }
 
 @media only screen and (min-width: 1400px) {
+  #page-home {
+    height: 100vh;
+    background: url('../../assets/home-background.svg') no-repeat 600px bottom;
+  }
+}
+
+@media only screen and (min-width: 1620px) {
   #page-home {
     height: 100vh;
     background: url('../../assets/home-background.svg') no-repeat 800px bottom;
